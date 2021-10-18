@@ -1,0 +1,318 @@
+{
+    "name": "MidiInputs",
+    "maps": [
+        {
+            "name": "MidiControls",
+            "id": "bea38d04-0d50-43c6-8db8-46185eeda183",
+            "actions": [
+                {
+                    "name": "PAD1",
+                    "type": "Button",
+                    "id": "ecf783c1-60f7-4b38-805a-d06eabadf1db",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD2",
+                    "type": "Button",
+                    "id": "61722f1d-3683-448d-8dfb-7393c51e51f4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD3",
+                    "type": "Button",
+                    "id": "b419d933-3cac-4fe2-a054-115e2917f1e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD4",
+                    "type": "Button",
+                    "id": "cd34f314-cae7-40ff-83e1-95dccf90ce65",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD5",
+                    "type": "Button",
+                    "id": "57a34fa7-e9e2-43fe-bf03-3c1fbd793dc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD6",
+                    "type": "Button",
+                    "id": "385444bd-968f-4047-baf2-188166696ff9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD7",
+                    "type": "Button",
+                    "id": "a2cac516-7b86-41ae-803e-0e032ade816e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PAD8",
+                    "type": "Button",
+                    "id": "2ad53c5c-59a9-40d6-98f9-720195a7dfad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB1",
+                    "type": "Value",
+                    "id": "16adc8a5-51e1-4d33-9c9a-7dc7970ccd0d",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB2",
+                    "type": "Value",
+                    "id": "2035bb5a-e100-478d-8207-a275c3283315",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB3",
+                    "type": "Value",
+                    "id": "cc52069c-3e78-412e-95de-5f5fbdfc6453",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB4",
+                    "type": "Value",
+                    "id": "a279def6-73ca-455d-86a1-5d85b6232b64",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB5",
+                    "type": "Value",
+                    "id": "ebe104f3-8f89-4ae1-b433-aa82af70bfcc",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB6",
+                    "type": "Value",
+                    "id": "7477c82b-ecf6-4364-8ebe-1eba36af245d",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB7",
+                    "type": "Value",
+                    "id": "e991ddea-bcc2-4165-9166-c0dfa35d6bd6",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "KNOB8",
+                    "type": "Value",
+                    "id": "a08582c4-dfee-441a-bca3-bb94e769ac2c",
+                    "expectedControlType": "MidiValue",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31f89d16-f4e9-4e9b-96b6-90275a2ba468",
+                    "path": "<MidiDevice>/note001",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d4f14df5-073c-422b-a968-7c7406a1e3ea",
+                    "path": "<MidiDevice>/control001",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e76b428f-6402-49b3-b752-a88937fa2af5",
+                    "path": "<MidiDevice>/note002",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "add6a958-d198-4eb5-97e6-9d41b94506f4",
+                    "path": "<MidiDevice>/note003",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45b4fc26-3d4b-4fdc-a77f-d4b7a7b1c587",
+                    "path": "<MidiDevice>/note004",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "74528f02-4e2d-48ad-85e7-0fa3ac56310d",
+                    "path": "<MidiDevice>/note005",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dfdc3e6b-f28c-4fbd-9bee-192862dd0db4",
+                    "path": "<MidiDevice>/note006",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1afd23f-f5f5-4a83-884f-da645afbf79c",
+                    "path": "<MidiDevice>/note007",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "60c0c1d8-8c32-46ae-971d-7198172ec96a",
+                    "path": "<MidiDevice>/note008",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PAD8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae57c7e7-0904-471e-b361-9229ed16d7e2",
+                    "path": "<MidiDevice>/control002",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90f6c367-fbe1-4af8-afdc-23c53c115737",
+                    "path": "<MidiDevice>/control003",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ab86956-59a6-43fb-b2f1-621b178050cb",
+                    "path": "<MidiDevice>/control004",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b0edd57-44a2-4bc5-8d01-7fc3e19f63e8",
+                    "path": "<MidiDevice>/control005",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5407a417-132f-439a-b76f-1385940957df",
+                    "path": "<MidiDevice>/control006",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "886490c1-a70b-4bcf-be72-722491db8b41",
+                    "path": "<MidiDevice>/control007",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB7",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b9d730a-baf5-4372-b1b7-4d25b48fec1b",
+                    "path": "<MidiDevice>/control008",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "KNOB8",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

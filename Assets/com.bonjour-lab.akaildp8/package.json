@@ -1,0 +1,40 @@
+{
+    "name": "com.bonjour-lab.akaildp8",
+    "displayName": "Bonjour Lab - AKAI LDP8 snippet",
+    "version": "0.0.1",
+    "unity": "2020.x",
+    "description": "Simple AKAILP8 event system based on minis from Keijiro Takashi",
+    "keywords": [
+          "akai",
+          "midi",
+          "utility",
+          "unity",
+          "bonjourlab"
+      ],
+    "homepage": "https://www.bonjour-lab.com/",
+    "bugs": {
+      "url": "https://github.com/Bonjour-Interactive-Lab/Unity3D-AKAILDP8/issues"
+     },
+    "repository": {
+       "type": "git",
+       "url": "https://github.com/Bonjour-Interactive-Lab/Unity3D-AKAILDP8.git"
+    },
+    "license": "MIT",
+    "author": {
+           "name": "bonjour lab",
+           "email": "alex@bonjour-lab.com",
+           "url": "https://www.bonjour-lab.com/"
+     },
+     "scopedRegistries": [
+        {
+            "name": "Keijiro",
+            "url": "https://registry.npmjs.com",
+            "scopes": [
+              "jp.keijiro"
+            ]
+          }
+     ],
+     "dependencies": { 
+        "jp.keijiro.minis": "1.0.10"
+      }
+  }
