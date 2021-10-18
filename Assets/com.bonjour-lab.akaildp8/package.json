@@ -1,7 +1,7 @@
 {
     "name": "com.bonjour-lab.akaildp8",
     "displayName": "Bonjour Lab - AKAI LDP8 snippet",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "unity": "2020.x",
     "description": "Simple AKAILP8 event system based on minis from Keijiro Takashi",
     "keywords": [
@@ -25,15 +25,6 @@
            "email": "alex@bonjour-lab.com",
            "url": "https://www.bonjour-lab.com/"
      },
-     "scopedRegistries": [
-        {
-            "name": "Keijiro",
-            "url": "https://registry.npmjs.com",
-            "scopes": [
-              "jp.keijiro"
-            ]
-          }
-     ],
      "dependencies": { 
         "jp.keijiro.minis": "1.0.10"
       }

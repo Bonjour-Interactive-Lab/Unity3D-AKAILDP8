@@ -2,6 +2,8 @@
 This package is a snimple snippet for using AKAI LDP8 midi controller using Keijiro Takashi Mini library : https://github.com/keijiro/Minis
 
 ## Install Package
+First install the Unity New Input System package from the Package Manager.
+
 This package uses the scoped registry feature to import dependent packages.
 Please add the following sections to the package manifest file (Packages/manifest.json).
 
@@ -31,6 +33,13 @@ After changes, the manifest file should look like below:
       "url": "https://registry.npmjs.com",
       "scopes": [
         "com.bonjour-lab"
+      ]
+    }
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
       ]
     }
   ],
