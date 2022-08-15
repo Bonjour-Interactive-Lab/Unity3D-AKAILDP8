@@ -1,7 +1,7 @@
 {
     "name": "com.bonjour-lab.akaildp8",
     "displayName": "Bonjour Lab - AKAI LDP8 snippet",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "unity": "2020.x",
     "description": "Simple AKAILP8 event system based on minis from Keijiro Takashi",
     "keywords": [
